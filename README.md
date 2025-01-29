@@ -1,6 +1,6 @@
  Simple Netflix Clone
 
- Link : https://sardar25.github.io/simple-netflix-clone/
+ Live Demo : https://sardar25.github.io/simple-netflix-clone/
 
  Main Functionalites 
 

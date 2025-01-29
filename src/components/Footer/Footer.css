@@ -1,0 +1,45 @@
+.footer {
+    padding: 30px 4%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-icons {
+    margin: 40px 0;
+    gap: 20px;
+    display: flex;
+}
+
+.footer-icons img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer ul {
+    display: grid;
+    list-style: none;
+    gap: 15px;
+    margin-bottom: 30px;
+    grid-template-columns: auto auto auto ;
+}
+
+.footer ul li {
+    cursor: pointer;
+}
+
+.copyright-text {
+    color: gray;
+    font-size: 14px;
+}
+
+@media (max-width:800px) {
+    
+    .footer-icons img {
+        width: 25px;
+    }
+    .footer ul {
+        grid-template-columns: auto auto;
+        gap: 12px;
+        font-size: 12px;
+    }
+}
